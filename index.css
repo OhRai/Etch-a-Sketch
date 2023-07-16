@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fae8cc;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #facd8a;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+/* Gridbox */ 
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8vh 0;
+}
+
+#gridbox-container {
+    display: grid;
+    width: 550px;
+    height: 550px;
+    border: 20px solid #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
